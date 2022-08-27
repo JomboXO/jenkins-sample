@@ -47,8 +47,4 @@ public class BaseEntity implements Serializable {
 	public boolean isNew() {
 		return this.id == null;
 	}
-
-	private void test(){
-		System.out.println("test");
-	}
 }
