@@ -48,4 +48,7 @@ public class BaseEntity implements Serializable {
 		return this.id == null;
 	}
 
+	private void test(){
+		System.out.println("test");
+	}
 }
